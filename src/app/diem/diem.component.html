@@ -1,0 +1,36 @@
+<div class="main">
+    <div class="container">
+        <div class="form-boCauHoi">
+            <div class="form-handle">
+                <button nz-button class="btn">Add</button>
+            </div>
+            <div class="form-handle">
+                <button nz-button class="btn">Update</button>
+            </div>
+            <div class="form-inputUpdate">
+                <input nz-input placeholder="Tên Bộ Câu Hỏi"/>
+            </div>
+        </div>
+        <div class="content">
+            <nz-table #linh class="table" nzShowPagination="true" >
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Điểm</th>
+                        <th [nzAlign]="'center'">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of linh.data;  let i = index">
+                        <td>{{i + 1}}</td>
+                        <td>{{item.tenBoCauHoi}}</td>
+                        <td class="action">
+                            <button class="btn-action-delete">Delete</button>
+                            <button class="btn-action-put">Put</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </nz-table>
+        </div>
+    </div>
+</div>

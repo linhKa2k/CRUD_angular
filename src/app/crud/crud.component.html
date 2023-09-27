@@ -1,0 +1,60 @@
+<div class="main">
+    <div class="container">
+        <div class="form-boCauHoi">
+            <div class="form-handle">
+                <button nz-button class="btn" (click)="handleShowModal()">Add</button>
+            </div>
+            <div class="form-handle">
+                <button nz-button class="btn" (click)="handleUpdate()">Update</button>
+            </div>
+            <div class="form-inputUpdate">
+                <input nz-input placeholder="Tên Bộ Câu Hỏi" [(ngModel)]="User.tenBoCauHoi" />
+            </div>
+        </div>
+        <div class="content">
+            <nz-table #linh [nzData]="listData" class="table" nzShowPagination="true" [nzPageSize]="limit" >
+                <thead> 
+                    <tr>
+                        <th>ID</th> 
+                        <th >Tên Bộ Câu Hỏi</th>
+                        <th [nzAlign]="'center'">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of linh.data;  let i = index" >
+                        <td>{{i + 1}}</td>
+                        <td>{{item.tenBoCauHoi}}</td>
+                        <td class="action">
+                           
+                            <button nz-button nzType="primary" nzShape="circle" ><span nz-icon nzType="delete" nzTheme="outline" (click)="handleDelete(item.id)"></span></button>
+                            <button (click)="select(item)" class="btn-action-put">Put</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </nz-table>
+        </div>
+        <!-- <div class="table-cauhoi">
+            <nz-table #linh [nzData]="listData" class="table" nzShowPagination="true" [nzPageSize]="limit">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Tên Bộ Câu Hỏi</th>
+                        <th [nzAlign]="'center'">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of linh.data;  let i = index">
+                        <td>{{i + 1}}</td>
+                        <td>{{item.tenBoCauHoi}}</td>
+                        <td class="action">
+                            <button (click)="handleDelete(item.id)" class="btn-action-delete">Delete</button>
+                            <button (click)="select(item)" class="btn-action-put">Put</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </nz-table>
+        </div> -->
+    </div>
+
+</div>
+<app-reactive-form [(isVisible)]="isVisible" (getAssets)="get()"></app-reactive-form>

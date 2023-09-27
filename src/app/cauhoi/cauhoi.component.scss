@@ -1,0 +1,115 @@
+.main {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(90deg, #C7C5F4, #776BCC);
+
+        .form-boCauHoi {
+            display: flex;
+
+            .form-inputUpdate {
+                width: 500px;
+                margin-top: 7px;
+            }
+        }
+    }
+
+    .form-handle {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+
+        .btn {
+            width: 140px;
+            height: 45px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 2.5px;
+            font-weight: 500;
+            color: #000;
+            background-color: #fff;
+            border: none;
+            border-radius: 45px;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease 0s;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .btn:hover {
+            background-color: #2EE59D;
+            box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+            color: #fff;
+            transform: translateY(-7px);
+        }
+    }
+
+    .content {
+        .table {
+            margin-top: 10px;
+            width:900px;  
+
+            .action {
+                display: flex;
+                justify-content: space-evenly;
+
+                .btn-action-delete {
+                    width: 100px;
+                    height: 45px;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 11px;
+                    text-transform: uppercase;
+                    letter-spacing: 2.5px;
+                    font-weight: 500;
+                    color: #000;
+                    background-color: #ff6348;
+                    border: none;
+                    border-radius: 45px;
+                    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+                    transition: all 0.3s ease 0s;
+                    cursor: pointer;
+                    outline: none;
+                }
+
+                .btn-action-put {
+                    width: 100px;
+                    height: 45px;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 11px;
+                    text-transform: uppercase;
+                    letter-spacing: 2.5px;
+                    font-weight: 500;
+                    color: #000;
+                    background-color: #70a1ff;
+                    border: none;
+                    border-radius: 45px;
+                    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+                    transition: all 0.3s ease 0s;
+                    cursor: pointer;
+                    outline: none;
+                }
+
+                .btn-action-delete:hover {
+                    background-color: #2EE59D;
+                    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+                    color: #fff;
+                    transform: translateY(-7px);
+                }
+
+                .btn-action-put:hover {
+                    background-color: #2EE59D;
+                    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+                    color: #fff;
+                    transform: translateY(-7px);
+                }
+
+            }
+        }
+
+    }
+}

@@ -1,0 +1,36 @@
+<div class="main">
+    <div class="container">
+        <div class="form-boCauHoi">
+            <div class="form-handle">
+                <button nz-button class="btn" (click)="handleAdd()">Add</button>
+            </div>
+            <div class="form-handle">
+                <button nz-button class="btn" (click)="handleUpdate()">Update</button>
+            </div>
+            <div class="form-inputUpdate">
+                <input nz-input placeholder="Tên Câu Hỏi" [(ngModel)]="Question.tenCauHoi" />
+            </div>
+        </div>
+        <div class="content">
+            <nz-table #linh class="table" [nzData]="listDataCauHoi" nzShowPagination="false" [nzScroll]="{ x: '800px', y: '300px' }">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th >Tên Câu Hỏi</th>
+                        <th [nzAlign]="'center'">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of linh.data;  let i = index">
+                        <td>{{i + 1}}</td>
+                        <td>{{item.tenCauHoi}}</td>
+                        <td class="action" [nzShowCheckbox] = true>
+                            <button class="btn-action-delete" (click)="handleDelete(item.id)">Delete</button>
+                            <button class="btn-action-put" (click)="select(item)">Put</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </nz-table>
+        </div>
+    </div>
+</div>

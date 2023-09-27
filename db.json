@@ -1,0 +1,216 @@
+{
+  "boCauHoi": [
+    {
+      "tenBoCauHoi": "Ve",
+      "id": 9
+    },
+    {
+      "tenBoCauHoi": "Nghe Thuat",
+      "id": 10
+    }
+  ],
+  "cauHoi": [
+    {
+      "id": 2,
+      "tenCauHoi": "cauhoi2"
+    },
+    {
+      "id": 3,
+      "tenCauHoi": "cauhoi3"
+    },
+    {
+      "id": 4,
+      "tenCauHoi": "cauhoi4"
+    },
+    {
+      "id": 5,
+      "tenCauHoi": "cauhoi5"
+    },
+    {
+      "id": 6,
+      "tenCauHoi": "cauhoi6"
+    },
+    {
+      "id": 7,
+      "tenCauHoi": "cauHoi7"
+    }
+  ],
+  "cauTraLoi": [
+    {
+      "id": 1,
+      "tenCauTraLoi": "cauTraLoi1"
+    },
+    {
+      "id": 2,
+      "tenCauTraLoi": "cauTraLoi2"
+    },
+    {
+      "id": 3,
+      "tenCauTraLoi": "cauTraLoi3"
+    },
+    {
+      "id": 4,
+      "tenCauTraLoi": "cauTraLoi4"
+    },
+    {
+      "id": 5,
+      "tenCauTraLoi": "cauTraLoi5"
+    },
+    {
+      "id": 6,
+      "tenCauTraLoi": "cauTraLoi6"
+    },
+    {
+      "id": 7,
+      "tenCauTraLoi": "cauTraLoi7"
+    }
+  ],
+  "ketQua": [
+    {
+      "id": 1,
+      "tenBoCauHoi": "Vat Ly"
+    },
+    {
+      "id": 2,
+      "tenBoCauHoi": "Khoa Hoc"
+    },
+    {
+      "id": 3,
+      "tenBoCauHoi": "Toan Hoc"
+    },
+    {
+      "id": 4,
+      "tenBoCauHoi": "Van Hoc"
+    },
+    {
+      "id": 5,
+      "tenBoCauHoi": "Lich Su"
+    },
+    {
+      "id": 6,
+      "tenBoCauHoi": "CNTT"
+    },
+    {
+      "id": 7,
+      "tenBoCauHoi": "Dia Ly"
+    },
+    {
+      "id": 8,
+      "tenBoCauHoi": "Nghe Thuat"
+    },
+    {
+      "id": 9,
+      "tenBoCauHoi": "Am Nhac"
+    }
+  ],
+  "baiLam": [
+    {
+      "id": 1,
+      "tenCauHoi": "Hôm nay ăn gì ?",
+      "cauTraLoi": [
+        {
+          "ketQuaTraLoi": "Ăn Cơm"
+        },
+        {
+          "ketQuaTraLoi": "Ăn Canh"
+        },
+        {
+          "ketQuaTraLoi": "Ăn Bún"
+        },
+        {
+          "ketQuaTraLoi": "Ăn Mì"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "tenCauHoi": "Hôm nay ăn gì ?",
+      "cauTraLoi": [
+        {
+          "ketQuaTraLoi": "Ăn Cơm"
+        },
+        {
+          "ketQuaTraLoi": "Ăn Canh"
+        },
+        {
+          "ketQuaTraLoi": "Ăn Bún"
+        },
+        {
+          "ketQuaTraLoi": "Ăn Mì"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "tenCauHoi": "Hôm nay làm gì ?",
+      "cauTraLoi": [
+        {
+          "ketQuaTraLoi": "Làm mình là mẩy"
+        },
+        {
+          "ketQuaTraLoi": "Làm Ăn"
+        },
+        {
+          "ketQuaTraLoi": "Học"
+        },
+        {
+          "ketQuaTraLoi": "Chơi"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "tenCauHoi": "Hôm nay có gì vui",
+      "cauTraLoi": [
+        {
+          "ketQuaTraLoi": "Có Cái Nịt"
+        },
+        {
+          "ketQuaTraLoi": "Có Cái Đầu B**i"
+        },
+        {
+          "ketQuaTraLoi": "Ăn Bún"
+        },
+        {
+          "ketQuaTraLoi": "Ăn Mì"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "tenCauHoi": "Hôm nay ăn gì ?",
+      "cauTraLoi": [
+        {
+          "ketQuaTraLoi": "Ăn Cơm"
+        },
+        {
+          "ketQuaTraLoi": "Ăn Canh"
+        },
+        {
+          "ketQuaTraLoi": "Ăn Bún"
+        },
+        {
+          "ketQuaTraLoi": "Ăn Mì"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "tenCauHoi": "Hôm nay ăn gì ?",
+      "cauTraLoi": [
+        {
+          "ketQuaTraLoi": "Ăn Cơm"
+        },
+        {
+          "ketQuaTraLoi": "Ăn Canh"
+        },
+        {
+          "ketQuaTraLoi": "Ăn Bún"
+        },
+        {
+          "ketQuaTraLoi": "Ăn Mì"
+        }
+      ]
+    }
+  ]
+}

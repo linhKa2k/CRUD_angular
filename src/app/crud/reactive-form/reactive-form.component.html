@@ -1,0 +1,23 @@
+<div>
+    <nz-modal [(nzVisible)]="isVisible" nzTitle="The first Modal" (nzOnCancel)="handleCancel()" (nzOnOk)="handleOk()"
+        nzCancelText="Cance" nzOkText="Add">
+        <ng-container *nzModalContent>
+
+            <form nz-form [formGroup]="UserForm" (ngSubmit)="onSubmit()">
+                <nz-form-item>
+                    <nz-form-label [nzSm]="6" [nzXs]="24" nzRequired nzFor="name">Name</nz-form-label>
+                    <nz-form-control nzErrorTip="Please input your Name!">
+                        <nz-input-group >
+                            <input type="text" nz-input formControlName="tenBoCauHoi" placeholder="Name" />
+                          </nz-input-group>
+                    </nz-form-control>
+                </nz-form-item>
+
+
+                <!-- <button (click)="submit()">submit</button> -->
+                
+            </form>
+        </ng-container>
+    </nz-modal>
+
+</div>

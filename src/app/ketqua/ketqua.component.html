@@ -1,0 +1,13 @@
+<div class="main">
+    <div class="container">
+        <div class="form-ketQua" >
+            <div class="ketqua" *ngFor="let item of listDataKetqua">
+                <h1 class="text-content">{{item.tenBoCauHoi}}</h1>
+                <button nz-button class="btn-bailam" routerLink="/baiLam">
+                    <p class="text-bailam">Bài Làm</p>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<router-outlet /> 

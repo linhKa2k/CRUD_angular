@@ -1,0 +1,14 @@
+<div>
+    <nz-modal class="modal" [(nzVisible)]="isVisible" nzTitle="Create" (nzOnCancel)="handleCancel()"
+        (nzOnOk)="handleOk()" nzCancelText="Cance" nzOkText="Add">
+        <ng-container *nzModalContent>
+            <div class="form-modal">
+                <div>
+                    <p>Name</p>
+                    <input nz-input placeholder="Name" [(ngModel)]="User.tenBoCauHoi" />
+                </div>
+            </div>
+        </ng-container>
+    </nz-modal>
+
+</div>

@@ -1,0 +1,58 @@
+.main {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(90deg, #C7C5F4, #776BCC);
+
+
+        .btn-submit {
+            position: fixed;
+            top: 94%;
+            left: 90%;
+            width: 150px;
+            height:50px;
+            border-radius: 999px;
+
+
+        }
+
+
+        .form-bailam {
+            width: 550px;
+            height: 100%;
+            background-color: #fff;
+            margin-top: 60px;
+            border-radius: 16px 16px 0 0;
+            padding: 10px;
+            overflow: auto;
+            position: relative;
+
+            .form-cauhoi {
+
+                .form-textcontent {
+                    display: flex;
+
+                    .text-cauhoi {
+                        margin-left: 10px;
+                    }
+                }
+
+                .form-checkbox {
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 15px;
+
+                    .checkbox {
+                        margin: 0px;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
